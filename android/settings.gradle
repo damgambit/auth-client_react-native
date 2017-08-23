@@ -1,5 +1,0 @@
-rootProject.name = 'rnAuth'
-include ':react-native-keychain'
-project(':react-native-keychain').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-keychain/android')
-
-include ':app'
